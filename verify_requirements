@@ -1,0 +1,7 @@
+I tried following the installation instructions on neon's official site:
+http://neon.nervanasys.com/docs/latest/installation.html
+
+sudo pip install --upgrade pip
+sudo pip install h5py
+sudo pip install pyaml
+sudo pip install virtualenv
