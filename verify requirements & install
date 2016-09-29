@@ -19,3 +19,7 @@ sudo update-alternatives --config gcc
 select 0 for automatic
 sudo update-alternatives --config g++
 select 0 for automatic
+
+git clone https://github.com/NervanaSystems/neon.git
+cd neon
+make
