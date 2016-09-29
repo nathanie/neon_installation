@@ -5,3 +5,9 @@ sudo pip install --upgrade pip
 sudo pip install h5py
 sudo pip install pyaml
 sudo pip install virtualenv
+
+make sure cuda is in the PATH
+if you followed my tutorial on installing ubuntu with GTX1080 its already there
+export PATH="/usr/local/cuda/bin:"$PATH
+export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/lib:/usr/local/lib:"$LD_LIBRARY_PATH
+
