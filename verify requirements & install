@@ -22,4 +22,5 @@ select 0 for automatic
 
 git clone https://github.com/NervanaSystems/neon.git
 cd neon
-make
+make               # to install to virtual environment or 
+make sysinstall    # to install without virtual environment
