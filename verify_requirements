@@ -14,3 +14,8 @@ export LD_LIBRARY_PATH="/usr/local/cuda/lib64:/usr/local/cuda/lib:/usr/local/lib
 had an issue with ippicv that was resolved with:
 sudo cp ~/opencv/3rdparty/ippicv/unpack/ippicv/lib/intel64/libippicv.a /usr/local/lib/
 
+assuming you followed my previous tutorial on installing ubuntu with GTX1080 its already there the following will be needed:
+sudo update-alternatives --config gcc
+select 0 for automatic
+sudo update-alternatives --config g++
+select 0 for automatic
