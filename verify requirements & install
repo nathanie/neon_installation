@@ -20,6 +20,8 @@ select 0 for automatic
 sudo update-alternatives --config g++
 select 0 for automatic
 
+export PKG_CONFIG_PATH=/usr/lib/x86_64-linux-gnu/pkgconfig
+
 git clone https://github.com/NervanaSystems/neon.git
 cd neon
 make               # to install to virtual environment or 
